@@ -209,3 +209,11 @@ i {
     top: 0;
     right: 0;
   }
+
+  i {
+    position: relative;
+    margin-left: 10px;
+    top: calc(-65%);
+    left: calc(60%);
+  }
+}
