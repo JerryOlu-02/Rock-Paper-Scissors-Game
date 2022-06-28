@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock,Paper,Scissors Game</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/ad1ab98106.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main>
+      <div class="player player--1 player--active">
+        <h1 class="name">Player 1</h1>
+        <h1 class="score score--1">20</h1>
+        <button class="btn btn--select">Select</button>
+
+        <div class="hidden overlay overlay--1 fade">
+          <img class="selection--1" src="image-1.png" alt="">
+          <i class="fa-solid fa-angle-right"></i> <br>
+          <button class="btn btn--play">Play</button>
+        </div>
+
+        <div class="current">
+          <h3>Current Score</h3>
+          <h1 class="current--score current--1">4</h1>
+        </div>
+        <button class="btn btn--new">New Game</button>
+      </div>
+      
+      <div class="player computer">
+        <h1 class="name">Computer</h1>
+        <h1 class="score score--2">50</h2>
+        <div class="current">
+          <h3>Current Score</h3>
+          <h1 class="current--score current--2">2</h1>
+        </div>
+        <div class="hidden overlay overlay--2">
+          <img class="selection--2" src="image-1.png" alt="">
+        </div>
+      </div>
+    </main>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
