@@ -168,3 +168,44 @@ i {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+
+/* Media Query */
+
+@media (max-width: 768px) {
+  body {
+    height: 100vh;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  .player {
+    height: 100%;
+  }
+
+  .btn--new {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .btn--play {
+    position: relative;
+    top: calc(-80%);
+    left: calc(140%);
+  }
+
+  .overlay {
+    position: relative;
+  }
+
+  .overlay--1 {
+    left: calc(-40%);
+    top: 0;
+  }
+
+  .overlay--2 {
+    top: 0;
+    right: 0;
+  }
